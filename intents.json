@@ -1,0 +1,110 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi", "hello", "hey", "good morning", "good evening", "good afternoon",
+        "hey there", "hi there", "howdy", "yo", "greetings", "what's up",
+        "is anyone there", "hello bot", "hi bot"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! Great to see you. Ask me anything."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye", "goodbye", "see you later", "see you", "talk to you later",
+        "catch you later", "i am leaving", "gotta go", "farewell", "quit",
+        "exit", "close chat", "end conversation"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later! Feel free to come back anytime.",
+        "Bye! Take care."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks", "thank you", "thanks a lot", "thank you so much",
+        "much appreciated", "thanks for the help", "appreciate it", "thx",
+        "ty", "great, thanks"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Let me know if you need anything else."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help", "i need help", "can you help me", "what can you do",
+        "how do you work", "help me out", "assist me", "i need assistance",
+        "support", "what are your capabilities"
+      ],
+      "responses": [
+        "I can answer questions about our college, AI, Python, and Machine Learning. I can also recall our earlier conversation. Just ask!",
+        "Sure! Try asking me about admissions, fees, placements, AI concepts, or say 'what did I ask before?'."
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "who are you", "what are you", "tell me about yourself",
+        "what is your name", "are you a bot", "are you human", "who made you",
+        "who created you", "what is this chatbot"
+      ],
+      "responses": [
+        "I'm an intermediate AI chatbot built with Python, FastAPI, and scikit-learn. I use NLP to understand your questions and a knowledge base to answer them.",
+        "I'm a virtual assistant created to answer questions about college, AI, and more!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "what is the weather", "how is the weather today", "is it raining",
+        "will it rain today", "what's the weather like", "temperature today",
+        "weather forecast", "is it sunny today", "weather update"
+      ],
+      "responses": [
+        "I don't have live weather access right now, but it looks like a great day to code! (This is a dummy response.)",
+        "Weather service isn't connected yet — but I'd guess sunny with a chance of great ideas!"
+      ]
+    },
+    {
+      "tag": "college_information",
+      "patterns": [
+        "tell me about the college", "college information", "what courses does the college offer",
+        "college admission process", "college fees", "placement details",
+        "what is the college address", "college facilities", "hostel facility",
+        "college ranking", "tell me about campus"
+      ],
+      "responses": [
+        "Let me check our knowledge base for detailed college information."
+      ]
+    },
+    {
+      "tag": "ai_questions",
+      "patterns": [
+        "what is artificial intelligence", "what is machine learning",
+        "what is deep learning", "explain neural networks", "what is nlp",
+        "what is supervised learning", "what is unsupervised learning",
+        "difference between ai and ml", "what is a chatbot", "explain ai to me"
+      ],
+      "responses": [
+        "Let me look that up in the knowledge base for an accurate explanation."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I couldn't understand your question. Could you please rephrase it?"
+      ]
+    }
+  ]
+}

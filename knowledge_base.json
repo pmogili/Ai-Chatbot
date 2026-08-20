@@ -1,0 +1,58 @@
+{
+  "topics": [
+    {
+      "topic": "college",
+      "keywords": ["college", "campus", "institute", "university"],
+      "question": "What is the college about?",
+      "answer": "Our college is a technology-focused institute offering undergraduate and postgraduate programs in Computer Science, AI, and allied engineering fields, with a strong focus on research and industry-ready skills."
+    },
+    {
+      "topic": "admission",
+      "keywords": ["admission", "apply", "entrance exam", "eligibility", "how to join"],
+      "question": "How does the admission process work?",
+      "answer": "Admissions are based on a combination of entrance exam scores, academic records, and a personal interview. Applications typically open twice a year — check the official admissions portal for exact dates."
+    },
+    {
+      "topic": "fees",
+      "keywords": ["fees", "fee structure", "tuition", "cost", "scholarship"],
+      "question": "What is the fee structure?",
+      "answer": "Fee structures vary by program. Undergraduate programs typically range from a moderate annual fee, with scholarships available for meritorious and economically disadvantaged students. Contact the admissions office for the current fee chart."
+    },
+    {
+      "topic": "placements",
+      "keywords": ["placement", "job", "career", "recruiters", "package", "internship"],
+      "question": "How are the placements?",
+      "answer": "The college has a dedicated placement cell that partners with technology companies for internships and full-time roles. Recent years have seen strong participation from IT services, product companies, and core engineering firms."
+    },
+    {
+      "topic": "python",
+      "keywords": ["python", "python programming", "python language"],
+      "question": "What is Python?",
+      "answer": "Python is a high-level, interpreted, general-purpose programming language known for its readability and large ecosystem of libraries. It's widely used in web development, data science, automation, and AI."
+    },
+    {
+      "topic": "machine_learning",
+      "keywords": ["machine learning", "ml", "supervised learning", "unsupervised learning"],
+      "question": "What is Machine Learning?",
+      "answer": "Machine Learning is a subset of AI where systems learn patterns from data instead of being explicitly programmed with rules. Common types include supervised learning (labeled data), unsupervised learning (unlabeled data), and reinforcement learning (reward-based learning)."
+    },
+    {
+      "topic": "deep_learning",
+      "keywords": ["deep learning", "neural network", "cnn", "rnn", "transformer"],
+      "question": "What is Deep Learning?",
+      "answer": "Deep Learning is a branch of Machine Learning that uses multi-layered neural networks to automatically learn hierarchical representations from data. It powers applications like image recognition, speech processing, and large language models."
+    },
+    {
+      "topic": "artificial_intelligence",
+      "keywords": ["artificial intelligence", "ai", "what is ai"],
+      "question": "What is Artificial Intelligence?",
+      "answer": "Artificial Intelligence is the field of computer science focused on building systems that can perform tasks which typically require human intelligence, such as reasoning, learning, perception, and language understanding."
+    },
+    {
+      "topic": "nlp",
+      "keywords": ["nlp", "natural language processing", "text processing"],
+      "question": "What is NLP?",
+      "answer": "Natural Language Processing (NLP) is a field of AI that focuses on enabling computers to understand, interpret, and generate human language, including tasks like tokenization, sentiment analysis, and machine translation."
+    }
+  ]
+}

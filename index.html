@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ app_name }}</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <h1>{{ app_name }}</h1>
+      </div>
+      <div class="topbar-actions">
+        <button id="clearBtn" class="icon-btn" title="Clear conversation">Clear</button>
+        <button id="darkModeToggle" class="icon-btn" title="Toggle dark mode">🌙</button>
+      </div>
+    </header>
+
+    <main class="chat-window" id="chatWindow" aria-live="polite">
+      <div class="message bot">
+        <div class="bubble">
+          Hi! I'm your AI assistant. Ask me about the college, AI, Python, or Machine Learning — or just say hello 👋
+          <div class="timestamp"></div>
+        </div>
+      </div>
+    </main>
+
+    <div class="typing-indicator" id="typingIndicator" hidden>
+      <span></span><span></span><span></span>
+    </div>
+
+    <footer class="composer">
+      <input
+        id="messageInput"
+        type="text"
+        placeholder="Type your message..."
+        autocomplete="off"
+        maxlength="500"
+      />
+      <button id="sendBtn" class="send-btn" title="Send message">
+        <span id="sendSpinner" class="spinner" hidden></span>
+        <span id="sendLabel">Send</span>
+      </button>
+    </footer>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

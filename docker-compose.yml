@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  chatbot:
+    build: .
+    container_name: intermediate-ai-chatbot
+    ports:
+      - "8000:8000"
+    environment:
+      - CHATBOT_DB_URL=sqlite:////app/data/chatbot.db
+    volumes:
+      # Persist the SQLite database and trained model across restarts
+      - chatbot_data:/app/data
+      - chatbot_model:/app/trained_model
+    restart: unless-stopped
+
+volumes:
+  chatbot_data:
+  chatbot_model:
